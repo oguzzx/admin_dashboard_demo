@@ -1,0 +1,24 @@
+.table .cellWrapper {
+  display: flex;
+  align-items: center;
+}
+.table .cellWrapper .image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.table .status {
+  padding: 5px;
+  border-radius: 5px;
+}
+.table .status.Approved {
+  background-color: rgba(0, 128, 0, 0.15);
+  color: green;
+}
+.table .status.Pending {
+  background-color: rgba(255, 165, 0, 0.15);
+  color: orange;
+}/*# sourceMappingURL=table.css.map */
